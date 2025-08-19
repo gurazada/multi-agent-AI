@@ -2,3 +2,4 @@ __pycache__/
 .gradio/
 .venv/
 *.pkl
+.DS_Store
