@@ -16,8 +16,6 @@ This repository implements a modular digital twin for biomanufacturing, orchestr
 -->
 ![Workflow Diagram](images/multi-agent-architecture.png)
 
-
-*Description:*  
 The architecture consists of a _RealTimeBioprocessSimulator_ agent streaming data to an _UpstreamViabilityAgent_, with all steps orchestrated in a LangGraph pipeline. Results are visualized in a live Gradio dashboard.
 
 ---
@@ -31,8 +29,8 @@ The architecture consists of a _RealTimeBioprocessSimulator_ agent streaming dat
 | `data_generator.py`                 | Utilities for batch or on-demand synthetic data creation |
 | `multi_agent_langgraph_pipeline.py` | LangGraph workflow tying agents into a streaming pipeline|
 | `dashboard_realtime_pipeline.py`    | Gradio dashboard for live agent workflow visualization   |
-| `execution_guide.py`                | Quickstart/CLI for training, running, and extending the pipeline |
-| `images/` *(optional)*              | (Add/commit any workflow architecture diagrams, icons, or screenshots here) |
+| `execution_guide.py`                | Quickstart/CLI for testing, running pipeline, and launching dashboard |
+| `images/`                           | Workflow architecture diagrams, icons, or screenshots  |
 
 ---
 
@@ -92,8 +90,12 @@ Add images or plots from the dashboard, such as:
 ## Extensibility
 
 - Add new agents (e.g., downstream purification, contamination monitoring)
+
+![Digital Twin](images/digital-twin.png)
+
 - Integrate support for real process data and advanced predictive models
 - Extend dashboard panels for process optimization, alarms, or multi-batch reporting
+
 
 ---
 
@@ -105,14 +107,11 @@ Add images or plots from the dashboard, such as:
 
 ## License
 
-[MIT](LICENSE) or specify your chosen license.
+[MIT](https://mit-license.org/)
 
 ---
 
 **Contact:**  
-*Your Name, Email, or GitHub handle here*
+Guna Gurazada (guna DOT udel AT gmail DOT com)
 
----
-
-*Feel free to update the placeholders for images and add system diagrams, results plots, or dashboard screenshots to the `/images` directory for enhanced documentation!*
 
