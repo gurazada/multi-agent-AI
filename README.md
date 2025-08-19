@@ -109,9 +109,8 @@ Add images or plots from the dashboard, such as:
 
 [MIT](https://mit-license.org/)
 
----
-
-**Contact:**  
+## Contact
+  
 Guna Gurazada (guna DOT udel AT gmail DOT com)
 
 
