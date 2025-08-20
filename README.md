@@ -46,12 +46,12 @@ The architecture consists of a _RealTimeBioprocessSimulator_ agent streaming dat
 python execution_guide.py
 ```
 
-### 2. Simulate and run the multi-agent predictive pipeline for N hours/samples [Option #3 in interactive CLI]
+### 2. Simulate and run the multi-agent predictive pipeline for N hours or samples (Option #3 in interactive CLI)
 ```
 python multi_agent_langgraph_pipeline.py
 ```
 
-### 3. Launch the interactive Live Dashboard [Option #4 in interactive CLI]
+### 3. Launch the interactive Live Dashboard (Option #4 in interactive CLI)
 ```
 python dashboard_realtime_pipeline.py
 ```
