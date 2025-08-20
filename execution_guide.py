@@ -63,8 +63,13 @@ def test_agent_functionality():
 
 def run_agentic_pipeline(num_hours=100):
     """ Run the multi-agent pipeline to predict viability collapse on hourly bioprocess samples """
-    results = run_pipeline(num_hours)
-    pprint.pprint(results)
+    try:
+        n_hours = int(input("Enter the number of hours to simulate the bioprocess run for: "))
+        print(f"Simulating bioprocess for {n_hours} hours...")
+        results = run_pipeline(n_hours)
+        pprint.pprint(results)
+    except ValueError:
+        print("Please enter a valid integer for the number of hours.")
 
 
 def launch_visualization():

@@ -110,5 +110,11 @@ def run_pipeline(num_hours=100):
 
 
 if __name__ == "__main__":
-    results = run_pipeline(150)
-    pprint.pprint(results)
+    try:
+        n_hours = int(input("Enter the number of hours to simulate the bioprocess run for: "))
+        print(f"Simulating bioprocess for {n_hours} hours...")
+        results = run_pipeline(n_hours)
+        pprint.pprint(results)
+    except ValueError:
+        print("Please enter a valid integer for the number of hours.")
+    
